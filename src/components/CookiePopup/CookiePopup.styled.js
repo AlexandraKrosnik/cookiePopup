@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Button, Drawer, Form } from 'antd';
+import { Drawer, Form } from 'antd';
 
 export const DrawerStyled = styled(Drawer)`
   .ant-drawer-body {

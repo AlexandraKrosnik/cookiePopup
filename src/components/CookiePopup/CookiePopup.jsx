@@ -1,10 +1,12 @@
-import { Button, Drawer, Form, Switch } from 'antd';
+import { Form, Switch } from 'antd';
 import { useState } from 'react';
 import { DrawerStyled, CookiesText, FormStyled } from './CookiePopup.styled';
 export const CookiePopup = () => {
   const [open, setOpen] = useState(true);
 
-  const onClose = () => {};
+  const onClose = () => {
+    setOpen(false);
+  };
   return (
     <DrawerStyled
       title="About cookies on this site"
